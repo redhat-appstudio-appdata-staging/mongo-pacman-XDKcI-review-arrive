@@ -26,7 +26,7 @@ spec:
       - env:
         - name: MONGO_SERVICE_HOST
           value: mongodb
-        image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/mongo-pacman/frontend-mongo-pacman@sha256:5a7f2c802cf987567cdf9664f7d8cf644cbfead50cbd47bdd349c3eaa00e1bd2
+        image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/mongo-pacman/frontend-mongo-pacman@sha256:3b6bcb352fa11c03df928de67b6bd3ac22afb06caadccf39925c2ac21c103994
         imagePullPolicy: Always
         name: container-image
         ports:
