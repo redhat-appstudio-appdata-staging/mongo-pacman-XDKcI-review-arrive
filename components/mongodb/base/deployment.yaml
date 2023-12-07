@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mongodb
     spec:
       containers:
-      - image: quay.io/jduimovich0/ mongodb-unused
+      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/mongo-pacman/mongodb@sha256:656b38905313877ff8d1df694a0f4a6a66f77fd94a3ec128fc608dc3ddba5129
         imagePullPolicy: Always
         name: container-image
         ports:
