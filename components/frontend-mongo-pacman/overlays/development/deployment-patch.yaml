@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-mongo-pacman
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/mongo-pacman/frontend-mongo-pacman@sha256:5a7f2c802cf987567cdf9664f7d8cf644cbfead50cbd47bdd349c3eaa00e1bd2
+        name: container-image
+        resources: {}
+status: {}
